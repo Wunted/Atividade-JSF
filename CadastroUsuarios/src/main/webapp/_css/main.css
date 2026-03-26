@@ -1,0 +1,47 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilização do título */
+h1, h2 {
+    color: #333;
+}
+
+/* Classe utilizada no h:inputText (passo 7) */
+.input-estilo {
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+}
+
+/* Estilo para o botão de cadastrar */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Estilo para a lista de nomes exibida (ArrayList) */
+ul {
+    list-style-type: square;
+    color: #555;
+}
+
+li {
+    margin-bottom: 5px;
+}

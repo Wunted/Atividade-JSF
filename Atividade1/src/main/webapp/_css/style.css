@@ -1,0 +1,43 @@
+@charset "UTF-8"; /* Codificação correta conforme roteiro [cite: 657] */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    color: #2980b9;
+}
+
+/* Ajuste da foto para o lado direito [cite: 655] */
+.foto-container {
+    float: right;
+    margin-left: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+}
+
+/* Limpeza do float para não afetar o restante do layout */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
